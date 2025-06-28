@@ -1,0 +1,177 @@
+.dashboard {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.chart-section {
+    position: relative;
+    margin: auto;
+    width: max-content;
+    background-color: #2b2b3c;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.chart-container {
+    width: 900px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buy-btn,
+.sell-btn {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buy-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.sell-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.chart-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-legend {
+    padding-left: 20px;
+    border-left: 2px solid #e0e0e0;
+    /* vertical line */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar {
+    background-color: #1e1e2f;
+    color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-buttons button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: #D9D9D9;
+    cursor: pointer;
+}
+
+.dashboard {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.stock-list {
+    width: 200px;
+    background-color: #2e2e4f;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.stock-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stock-list li {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.stock-list li:hover {
+    background-color: #444466;
+}
+
+.active {
+    background-color: #26a69a;
+    color: white;
+}
+
+.stock-details {
+    flex: 1;
+    background-color: #2e2e4f;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+
+.chart-section {
+    margin-top: 20px;
+}
+
+.chart-container {
+    width: 900px;
+    height: 450px;
+}
+
+.button-group {
+    margin-top: 10px;
+}
+
+.buy-btn,
+.sell-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.buy-btn {
+    background-color: #26a69a;
+}
+
+.sell-btn {
+    background-color: #ef5350;
+}
+
+.legend-color {
+    width: 16px;
+    height: 6px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.legend-text {
+    font-size: 14px;
+    color: #333;
+}
