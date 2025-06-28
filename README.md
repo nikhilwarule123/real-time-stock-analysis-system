@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# real-time-stock-analysis-system
+A full-stack web application built with ReactJS, Spring Boot, and MySQL, providing real-time stock data using WebSockets. Includes JWT authentication, role-based access, and email OTP verification for secure user management and live market updates.
+>>>>>>> 2750d67a55e63ae45457169677778032b27528fe
